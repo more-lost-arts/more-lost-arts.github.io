@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=1000, initial-scale=1">
+        
+        <title>Yu-Gi-Oh! Artwork Differences</title>
+
+        <link rel="stylesheet" href="index.css">
+        <script defer src="index.js"></script>
+    </head>
+    
+    <body class="has-modal modal-noscript">
+        <div id="main-row">
+            <div id="tcg" class="container"></div>
+            <div id="ocg" class="container"></div>
+            <div id="diff" class="container"></div>
+            <div id="overlay">
+                <div id="overlay-main">Did you know that <span id="card-name"></span> has different art in Japan?</div>
+                <div id="overlay-share">Share this card: <a id="permalink" title="Click to copy permalink">Permalink</a> | <a id="twitter-link" target="_blank">Twitter</a></div>
+            </div>
+            <div id="another">Show me another!</div>
+        </div>
+        
+        <div id="notes">
+            <span>A project</span> by <a href="https://www.reddit.com/user/gallantron/" rel="author external nofollow" target="_blank">/u/gallantron</a>
+        </div>
+		
+		<div id="controls">
+			<div id="controls-container">
+				<div class="controls-row">
+					<div class="controls-label">Sort by:</div>
+					<div class="controls-control control-buttons-container">
+						<div class="control-button" data-sort-mode="alpha"><span class="control-button-label">A-Z</span></div>
+						<div class="control-button" data-sort-mode="recent"><span class="control-button-label">Recent</span></div>
+					</div>
+				</div>
+                <div class="controls-row">
+                    <div class="controls-label">Links to:</div>
+                    <div class="controls-control control-buttons-container">
+						<div class="control-button" data-link-mode="konami"><span class="control-button-label">Konami</span></div>
+						<div class="control-button" data-link-mode="orgdb"><span class="control-button-label">OrgDB</span></div>
+					</div>
+                </div>
+			</div>
+		</div>
+        
+        <div id="modal-background"></div>
+        <div id="modal-container">
+            <div id="modal-noscript" class="noselect">
+                <div><b>Please add us to your NoScript whitelist!</b>
+
+This website requires JavaScript to deliver the intended experience. Please add us to your NoScript whitelist, or enable JavaScript in your browser.
+
+We do not include JavaScript from external domains. You can peruse the logic that will be running in unobfuscated form <a href="index.js" target="_blank" rel="noopener noreferrer">here</a>. To allow these scripts, you will need to whitelist <b>more-lost-arts.github.io</b> in NoScript.
+
+Thank you for your trust!
+                </div>
+            </div>
+            <div id="modal-loading" class="noselect">
+                <div><b>Loading relevant data...</b>
+
+We're loading the data file right now.
+By the time you've read to this point, this should've really completed, and this dialog should've disappeared.
+
+If you're still seeing it, there are really two possibilities:<ul>
+<li>You are running a very old browser, and it failed to parse our main JavaScript file because of it. This page should work on any semi-recent version of a modern browser.
+<i>(We test using Mozilla Firefox and Google Chrome.)</i>
+<li>Your browser isn't allowing us to load the necessary information for displaying artworks. Please make sure we're allowed to make requests to <b>artworks.ygorganization.com</b>. Your NoScript plugin might be interfering with this.
+<li>Something is broken in our main script file. This feels like something we should've noticed during testing, but maybe we didn't. If none of the other points on this page seem to fit, try getting in touch.
+<i>(You can reach me on Discord <a href="https://discordapp.com/users/114706168005394435/" rel="author external nofollow" target="_blank">@gallantron#1059</a>.)</i>
+</ul>
+   
+Sorry for the inconvenience!
+            </div>
+        </div>
+        <div id="modal-loading-img" class="noselect">
+            <div>Loading...</div>
+        </div>
+        <script type="text/javascript">
+            document.body.classList.remove('modal-noscript');
+            document.body.classList.add('modal-loading');
+        </script>
+    </body>
+</html>
