@@ -34,7 +34,7 @@ body { background: #ccc; font-family: Verdana, Geneva, sans-serif; }
 #ocg { opacity: 0; }
 #diff { transition: opacity .4s; }
 #diff { opacity: 0; }
-.step-4 #diff, .step-5 #diff, .step-13 #diff, .step-14 #diff { opacity: .8; }
+.step-4 #diff, .step-5 #diff, .step-13 #diff, .step-14 #diff { opacity: .95; }
 .step-8 #ocg, .step-9 #ocg, .step-10 #ocg, .step-11 #ocg, .step-12 #ocg, .step-13 #ocg, .step-14 #ocg, .step-15 #ocg, .step-16 #ocg { opacity: 1; }
 
 /* === TOP-RIGHT NOTE BAR === */

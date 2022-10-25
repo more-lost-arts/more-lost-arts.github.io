@@ -90,8 +90,8 @@ const ResolveFirst = (async (id) => {
 
 let currentEntry = null;
 const Load = (async (entryPromise) => {
-    const clearAnimationDelay = stopAnimationLoop();
     document.body.className = 'has-modal modal-loading-img';
+    await stopAnimationLoop();
     
     const entry = await entryPromise;
     
@@ -108,9 +108,11 @@ const Load = (async (entryPromise) => {
     permalink.hash = ('#'+entry.id);
     document.getElementById('permalink').href = permalink.href;
     
+    if (document.location.hash !== permalink.hash)
+        window.history.replaceState(null, '', '/');
+    
     document.getElementById('twitter-link').href = ('https://twitter.com/intent/tweet?text='+encodeURIComponent('Did you know that '+entry.enName+' has different artwork in Japan? I found out today!')+'&url='+encodeURIComponent(permalink.href)+'&hashtags=yugioh');
     
-    await clearAnimationDelay;
     document.body.className = '';
     startAnimationLoop();
 });
