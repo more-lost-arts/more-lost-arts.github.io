@@ -65,6 +65,29 @@ body { background: #ccc; font-family: Verdana, Geneva, sans-serif; }
 #notes > a:hover { text-decoration: underline overline dotted; }
 #notes > span { color: #888; }
 
+/* === TOP-LEFT SEARCH BAR === */
+
+#search
+{
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    border-bottom-right-radius: 32px;
+    background: #ddd;
+    border-right: 4px solid #777;
+    border-bottom: 4px solid #777;
+    transition: width .5s, height .5s, border-bottom-right-radius .25s;
+}
+#search.expanded { width: 156px; height: 26px; border-bottom-right-radius: 8px; }
+#search:not(.expanded) { cursor: pointer; }
+#search-placeholder { position: absolute; left: 0; top: 0; width: 21px; height: 21px; background-repeat: no-repeat; background-image: url(/search.png); background-size: contain; }
+#search.expanded #search-placeholder { display: none; }
+#search-box { margin: 3px; box-sizing: border-box; height: 20px; width: 150px; background: rgba(0,0,0,0.1); border: 1px solid #333; }
+#search:not(.expanded) #search-box { display: none; }
+
 /* === BOTTOM-LEFT CONTROLS === */
 
 #controls

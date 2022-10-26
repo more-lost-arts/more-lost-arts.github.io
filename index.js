@@ -126,6 +126,40 @@ document.getElementById('permalink').addEventListener('click', function(e) {
 
 document.getElementById('another').addEventListener('click', () => { if (!document.body.classList.contains('has-modal')) Load(ResolveNext(currentEntry)); });
 
+document.getElementById('search').addEventListener('click', function() { this.classList.add('expanded'); document.getElementById('search-box').focus(); });
+document.getElementById('search-box').addEventListener('blur', () => { document.getElementById('search').classList.remove('expanded'); });
+
+const _searchNormalize = ((t) => t.replaceAll(/[^a-zA-Z0-9]/g,'').toLowerCase());
+document.getElementById('search-box').addEventListener('keyup', async function(e) {
+    if (this.searchLock) return;
+    if (e.keyCode !== 13) return;
+    const oNeedle = this.value;
+    if (this.lastNeedle === oNeedle) return;
+    this.lastNeedle = oNeedle;
+    const needle = _searchNormalize(oNeedle);
+    if (needle.length < 5) return;
+    e.preventDefault();
+    this.blur();
+    
+    this.searchLock = true;
+    try {
+        const data = await _data;
+        let entry = data.first;
+        do {
+            if (_searchNormalize(entry.enName).includes(needle)) {
+                this.value = '';
+                this.lastNeedle = null;
+                Load(_resolveFully(entry));
+                return;
+            }
+            entry = entry.next;
+        } while (entry !== data.first);
+        window.alert('Not found: \''+oNeedle+'\'');
+        document.getElementById('search').classList.add('expanded');
+        this.focus();
+    } finally { this.searchLock = false; }
+});
+
 (async () => {
     Load((await ResolveFirst(document.location.hash && document.location.hash.substring(1)))[0]);
 })();
