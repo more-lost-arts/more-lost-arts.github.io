@@ -112,6 +112,7 @@ const Load = (async (entryPromise) => {
         window.history.replaceState(null, '', '/');
     
     document.getElementById('twitter-link').href = ('https://twitter.com/intent/tweet?text='+encodeURIComponent('Did you know that '+entry.enName+' has different artwork in Japan? I found out today!')+'&url='+encodeURIComponent(permalink.href)+'&hashtags=yugioh');
+    document.getElementById('facebook-link').href = ('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(permalink.href)+'&t='+encodeURIComponent('Did you know that '+entry.enName+' has different artwork in Japan? I found out today! #yugioh'));
     document.getElementById('false-positive').href = ('https://github.com/more-lost-arts/more-lost-arts.github.io/issues/new?title='+encodeURIComponent('False Positive: '+entry.enName)+'&body='+encodeURIComponent('**Permalink:** '+permalink.href+'\n\n<!-- add additional information below this line, if required -->'));
     
     document.body.className = '';
