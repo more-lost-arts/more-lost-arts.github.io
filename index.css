@@ -34,6 +34,7 @@ body { background: #ccc; font-family: Verdana, Geneva, sans-serif; }
 #ocg { opacity: 0; }
 #diff { transition: opacity .4s; }
 #diff { opacity: 0; }
+#diff.disabled { display: none; }
 .step-4 #diff, .step-5 #diff, .step-13 #diff, .step-14 #diff { opacity: .95; }
 .step-8 #ocg, .step-9 #ocg, .step-10 #ocg, .step-11 #ocg, .step-12 #ocg, .step-13 #ocg, .step-14 #ocg, .step-15 #ocg, .step-16 #ocg { opacity: 1; }
 
@@ -88,8 +89,8 @@ body { background: #ccc; font-family: Verdana, Geneva, sans-serif; }
 
 #controls:hover
 {
-	width: 200px;
-	height: 50px;
+	width: 220px;
+	height: 35px;
 }
 
 #controls-container
@@ -98,8 +99,8 @@ body { background: #ccc; font-family: Verdana, Geneva, sans-serif; }
 	left: 5px;
 	bottom: 5px;
 
-	width: 180px;
-	height: 38px;
+	width: 200px;
+	height: 23px;
 	opacity: 0;
 	
 	display: flex;

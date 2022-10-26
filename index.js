@@ -129,4 +129,20 @@ document.getElementById('another').addEventListener('click', () => { if (!docume
     Load((await ResolveFirst(document.location.hash && document.location.hash.substring(1)))[0]);
 })();
 
+/* settings */
+(() => {
+    const disableHighlights = (window.localStorage.getItem('disableHighlights') === 'true');
+    if (disableHighlights) document.getElementById('diff').classList.add('disabled');
+    
+    for (const btn of document.querySelectorAll('.control-button[data-show-diff]')) {
+        const isDisable = (btn.dataset.showDiff === 'no');
+        if (isDisable === disableHighlights) btn.classList.add('selected');
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.control-button[data-show-diff].selected').forEach((b) => b.classList.remove('selected'));
+            window.localStorage.setItem('disableHighlights', isDisable);
+            document.getElementById('diff').classList.toggle('disabled', isDisable);
+        });
+    }
+})();
+
 })();
