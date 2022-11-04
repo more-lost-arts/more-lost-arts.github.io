@@ -859,6 +859,10 @@
   "enName": "Witchcrafter Haine",
   "jpName": "ウィッチクラフト・ハイネ"
  },
+ "14411_1": {
+  "enName": "Witchcrafter Holiday",
+  "jpName": "ウィッチクラフト・サボタージュ"
+ },
  "14470_1": {
   "enName": "Fortune Lady Past",
   "jpName": "フォーチュンレディ・パスティー"
@@ -906,6 +910,10 @@
  "14742_1": {
   "enName": "Dark Ruler No More",
   "jpName": "冥王結界波"
+ },
+ "14757_1": {
+  "enName": "Nurse Dragonmaid",
+  "jpName": "ドラゴンメイド・ナサリー"
  },
  "14770_1": {
   "enName": "Mardel, Generaider Boss of Light",
@@ -1138,6 +1146,10 @@
  "17031_1": {
   "enName": "Chronicle Magician",
   "jpName": "クロニクル・マジシャン"
+ },
+ "17037_1": {
+  "enName": "Witchcrafter Vice-Madame",
+  "jpName": "ウィッチクラフト・バイスマスター"
  },
  "17125_1": {
   "enName": "Mad Mauler",
@@ -2874,13 +2886,5 @@
  "9992_1": {
   "enName": "Evilswarm Azzathoth",
   "jpName": "ヴェルズ・アザトホース"
- },
- "14411_1": {
-  "enName": "Witchcrafter Holiday",
-  "jpName": "ウィッチクラフト・サボタージュ"
- },
- "14757_1": {
-  "enName": "Nurse Dragonmaid",
-  "jpName": "ドラゴンメイド・ナサリー"
  }
 }
