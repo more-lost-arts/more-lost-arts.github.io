@@ -28,7 +28,7 @@ with open('data.json','r',encoding='utf-8') as f:
 
 print('Processing %d new artworks...' % (len(newArtworks),))
 mask = np.zeros((372,256),dtype='uint8')
-cv2.rectangle(mask, pt1=(33,70), pt2=(224,229), color=255, thickness=-1)
+cv2.rectangle(mask, pt1=(33,70), pt2=(224,261), color=255, thickness=-1)
 n=0
 failed = set()
 for id in newArtworks:
@@ -59,7 +59,7 @@ for id in newArtworks:
         diff = cv2.bitwise_and(diff, diff, mask=mask)
         
         (T,diff) = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
-        diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_CROSS,(5,5)))
+        diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_CROSS,(3,3)))
         
         (numLabels, labels, stats, centroids) = cv2.connectedComponentsWithStats(diff, 8)
         if numLabels <= 1:
