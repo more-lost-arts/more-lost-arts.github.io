@@ -7,6 +7,10 @@
   "enName": "Queen Dragun Djinn",
   "jpName": "竜魔人 クィーンドラグーン"
  },
+ "10093_1": {
+  "enName": "Butterflyoke",
+  "jpName": "隷属の鱗粉"
+ },
  "10102_1": {
   "enName": "Aquamirror Cycle",
   "jpName": "儀水鏡の反魂術"
@@ -26,6 +30,10 @@
  "10170_1": {
   "enName": "Goblin Marauding Squad",
   "jpName": "ゴブリン切り込み部隊"
+ },
+ "10190_1": {
+  "enName": "Spellbook of Wisdom",
+  "jpName": "トーラの魔導書"
  },
  "10196_1": {
   "enName": "Impenetrable Attack",
@@ -203,9 +211,17 @@
   "enName": "Traptrix Nepenthes",
   "jpName": "カズーラの蟲惑魔"
  },
+ "10676_1": {
+  "enName": "Vain Betrayer",
+  "jpName": "Vain－裏切りの嘲笑"
+ },
  "10708_1": {
   "enName": "Number 87: Queen of the Night",
   "jpName": "No.87 雪月花美神クイーン・オブ・ナイツ"
+ },
+ "10761_1": {
+  "enName": "Shadow Vampire",
+  "jpName": "シャドウ・ヴァンパイア"
  },
  "10762_1": {
   "enName": "Vampire Grace",
@@ -218,6 +234,10 @@
  "10790_1": {
   "enName": "Gagagatag",
   "jpName": "ガガガタッグ"
+ },
+ "10793_1": {
+  "enName": "Ghostrick Mansion",
+  "jpName": "ゴーストリック・ハウス"
  },
  "10811_1": {
   "enName": "BIG Win!?",
@@ -246,6 +266,10 @@
  "10956_1": {
   "enName": "Shared Ride",
   "jpName": "相乗り"
+ },
+ "10957_1": {
+  "enName": "Release, Reverse, Burst",
+  "jpName": "リリース・リバース・バースト"
  },
  "10964_1": {
   "enName": "Skill Prisoner",
@@ -279,6 +303,14 @@
   "enName": "Ghostrick Socuteboss",
   "jpName": "ゴーストリック・サキュバス"
  },
+ "11100_1": {
+  "enName": "Last Counter",
+  "jpName": "ラスト・カウンター"
+ },
+ "11121_1": {
+  "enName": "Bond Between Teacher and Student",
+  "jpName": "師弟の絆"
+ },
  "11129_1": {
   "enName": "Black Illusion",
   "jpName": "ブラック・イリュージョン"
@@ -303,9 +335,17 @@
   "enName": "Spy-C-Spy",
   "jpName": "華麗なる密偵－C"
  },
+ "11263_1": {
+  "enName": "Castel, the Skyblaster Musketeer",
+  "jpName": "鳥銃士カステル"
+ },
  "11264_1": {
   "enName": "Hippo Carnival",
   "jpName": "カバーカーニバル"
+ },
+ "11311_1": {
+  "enName": "Masked HERO Koga",
+  "jpName": "M・HERO 光牙"
  },
  "11341_1": {
   "enName": "Superheavy Samurai Scales",
@@ -327,13 +367,37 @@
   "enName": "Frightfur Wolf",
   "jpName": "デストーイ・シザー・ウルフ"
  },
+ "11389_1": {
+  "enName": "Draw Muscle",
+  "jpName": "ドロー・マッスル"
+ },
  "11402_1": {
   "enName": "Performapal Revival",
   "jpName": "EMリバイバル"
  },
+ "11492_1": {
+  "enName": "Ritual Beast Tamer Lara",
+  "jpName": "霊獣使い レラ"
+ },
+ "11501_1": {
+  "enName": "Ritual Beast's Bond",
+  "jpName": "霊獣の相絆"
+ },
+ "11504_1": {
+  "enName": "Fusion Substitute",
+  "jpName": "置換融合"
+ },
  "11506_1": {
   "enName": "Alich, Malebranche of the Burning Abyss",
   "jpName": "彼岸の悪鬼 アリキーノ"
+ },
+ "11509_1": {
+  "enName": "Fire Lake of the Burning Abyss",
+  "jpName": "彼岸の沈溺"
+ },
+ "11560_1": {
+  "enName": "Uni-Zombie",
+  "jpName": "ユニゾンビ"
  },
  "11588_1": {
   "enName": "Wall of Disruption",
@@ -351,6 +415,10 @@
   "enName": "Rose Paladin",
   "jpName": "薔薇の聖騎士"
  },
+ "11647_1": {
+  "enName": "Isolde, Belle of the Underworld",
+  "jpName": "冥界の麗人イゾルデ"
+ },
  "11654_1": {
   "enName": "Number 21: Frozen Lady Justice",
   "jpName": "No.21 氷結のレディ・ジャスティス"
@@ -366,6 +434,10 @@
  "11670_1": {
   "enName": "Dark Burning Magic",
   "jpName": "黒・爆・裂・破・魔・導"
+ },
+ "11685_1": {
+  "enName": "Soprano the Melodious Songstress",
+  "jpName": "幻奏の歌姫ソプラノ"
  },
  "11687_1": {
   "enName": "Edge Imp Saw",
@@ -427,6 +499,14 @@
   "enName": "Mistaken Arrest",
   "jpName": "捕違い"
  },
+ "11858_1": {
+  "enName": "Humid Winds",
+  "jpName": "潤いの風"
+ },
+ "11859_1": {
+  "enName": "Dried Winds",
+  "jpName": "渇きの風"
+ },
  "11861_1": {
   "enName": "Ferret Flames",
   "jpName": "イタチの大暴発"
@@ -463,6 +543,18 @@
   "enName": "Frightfur March",
   "jpName": "デストーイ・マーチ"
  },
+ "12013_1": {
+  "enName": "Dark Contract with Errors",
+  "jpName": "誤封の契約書"
+ },
+ "12026_1": {
+  "enName": "Traptrix Rafflesia",
+  "jpName": "フレシアの蟲惑魔"
+ },
+ "12033_1": {
+  "enName": "Kozmo Farmgirl",
+  "jpName": "Kozmo－ドロッセル"
+ },
  "12057_1": {
   "enName": "Shock Surprise",
   "jpName": "ヒドゥン・ショット"
@@ -475,9 +567,17 @@
   "enName": "Kozmo Lightsword",
   "jpName": "Kozmo－レイブレード"
  },
+ "12179_1": {
+  "enName": "Reject Reborn",
+  "jpName": "リジェクト・リボーン"
+ },
  "12284_1": {
   "enName": "Lunalight Wolf",
   "jpName": "月光狼"
+ },
+ "12338_1": {
+  "enName": "Fusion Tag",
+  "jpName": "融合識別"
  },
  "12350_1": {
   "enName": "Bad Aim",
@@ -523,6 +623,14 @@
   "enName": "Frightfur Sanctuary",
   "jpName": "デストーイ・サンクチュアリ"
  },
+ "12470_1": {
+  "enName": "Magician Navigation",
+  "jpName": "マジシャンズ・ナビゲート"
+ },
+ "12497_1": {
+  "enName": "Berry Magician Girl",
+  "jpName": "ベリー・マジシャン・ガール"
+ },
  "12498_1": {
   "enName": "Apple Magician Girl",
   "jpName": "アップル・マジシャン・ガール"
@@ -551,13 +659,33 @@
   "enName": "A-to-Z-Dragon Buster Cannon",
   "jpName": "AtoZ－ドラゴン・バスターキャノン"
  },
+ "12630_1": {
+  "enName": "Metalfoes Mithrilium",
+  "jpName": "メタルフォーゼ・ミスリエル"
+ },
+ "12651_1": {
+  "enName": "Igknights Unite",
+  "jpName": "イグナイト・ユナイト"
+ },
  "12672_1": {
   "enName": "Silent Paladin",
   "jpName": "沈黙の魔導剣士－サイレント・パラディン"
  },
+ "12680_1": {
+  "enName": "Ancient Gear Fortress",
+  "jpName": "古代の機械要塞"
+ },
  "12750_1": {
   "enName": "Zoodiac Bunnyblast",
   "jpName": "十二獣ラビーナ"
+ },
+ "12767_1": {
+  "enName": "Eater of Millions",
+  "jpName": "百万喰らいのグラットン"
+ },
+ "12801_1": {
+  "enName": "That Grass Looks Greener",
+  "jpName": "隣の芝刈り"
  },
  "12826_1": {
   "enName": "SPYRAL MISSION - Assault",
@@ -574,6 +702,10 @@
  "12886_1": {
   "enName": "Frightfur Reborn",
   "jpName": "デストーイ・リニッチ"
+ },
+ "12898_1": {
+  "enName": "Chaos Scepter Blast",
+  "jpName": "滅びの呪文－デス・アルテマ"
  },
  "12905_1": {
   "enName": "White Veil",
@@ -607,6 +739,10 @@
   "enName": "Traptrix Mantis",
   "jpName": "ランカの蟲惑魔"
  },
+ "13070_1": {
+  "enName": "Motivating Captain",
+  "jpName": "切れぎみ隊長"
+ },
  "13076_1": {
   "enName": "Parry Knights",
   "jpName": "パーリィナイツ"
@@ -619,6 +755,10 @@
   "enName": "Trickstar Holly Angel",
   "jpName": "トリックスター・ホーリーエンジェル"
  },
+ "13092_1": {
+  "enName": "Trickstar Light Stage",
+  "jpName": "トリックスター・ライトステージ"
+ },
  "13107_1": {
   "enName": "Trickstar Reincarnation",
   "jpName": "トリックスター・リンカーネイション"
@@ -626,6 +766,10 @@
  "13146_1": {
   "enName": "Amazoness Spy",
   "jpName": "アマゾネスの斥候"
+ },
+ "13148_1": {
+  "enName": "Amazoness Empress",
+  "jpName": "アマゾネス女帝"
  },
  "13149_1": {
   "enName": "Quiet Life",
@@ -647,6 +791,10 @@
   "enName": "Secret Six Samurai - Genba",
   "jpName": "影六武衆－ゲンバ"
  },
+ "13317_1": {
+  "enName": "Magical Musketeer Kidbrave",
+  "jpName": "魔弾の射手 ザ・キッド"
+ },
  "13318_1": {
   "enName": "Magical Musketeer Starfire",
   "jpName": "魔弾の射手 スター"
@@ -655,9 +803,17 @@
   "enName": "Magical Musketeer Calamity",
   "jpName": "魔弾の射手 カラミティ"
  },
+ "13324_1": {
+  "enName": "Magical Musket - Desperado",
+  "jpName": "魔弾－デスペラード"
+ },
  "13325_1": {
   "enName": "Magical Musket - Dancing Needle",
   "jpName": "魔弾－ダンシング・ニードル"
+ },
+ "13327_1": {
+  "enName": "Magical Musket - Last Stand",
+  "jpName": "魔弾－デッドマンズ・バースト"
  },
  "13343_1": {
   "enName": "Trickstar Crimson Heart",
@@ -743,6 +899,14 @@
   "enName": "Crusadia Revival",
   "jpName": "リユナイト・パラディオン"
  },
+ "13785_1": {
+  "enName": "Mirror Force Launcher",
+  "jpName": "ミラーフォース・ランチャー"
+ },
+ "13789_1": {
+  "enName": "Crusadia Vanguard",
+  "jpName": "クルセイド・パラディオン"
+ },
  "13807_1": {
   "enName": "Hexe Trude",
   "jpName": "ヘクサ・トルーデ"
@@ -766,6 +930,14 @@
  "13965_1": {
   "enName": "Trap Trick",
   "jpName": "トラップトリック"
+ },
+ "13994_1": {
+  "enName": "Valkyrie Erste",
+  "jpName": "ワルキューレ・アルテスト"
+ },
+ "14031_1": {
+  "enName": "Prank-Kids Pandemonium",
+  "jpName": "プランキッズの大暴走"
  },
  "14050_1": {
   "enName": "Avendread Savior",
@@ -794,6 +966,10 @@
  "14168_1": {
   "enName": "Harpie's Feather Rest",
   "jpName": "ハーピィの羽根休め"
+ },
+ "14169_1": {
+  "enName": "Harpie Lady Elegance",
+  "jpName": "華麗なるハーピィ・レディ"
  },
  "14170_1": {
   "enName": "Cyber Angel Izana",
@@ -843,6 +1019,10 @@
   "enName": "Gouki The Blade Ogre",
   "jpName": "剛鬼ザ・ブレード・オーガ"
  },
+ "14311_1": {
+  "enName": "Crusadia Testament",
+  "jpName": "テスタメント・パラディオン"
+ },
  "14359_1": {
   "enName": "Valkyrie Sechste",
   "jpName": "ワルキューレ・セクスト"
@@ -863,9 +1043,17 @@
   "enName": "Witchcrafter Holiday",
   "jpName": "ウィッチクラフト・サボタージュ"
  },
+ "14412_1": {
+  "enName": "Witchcrafter Collaboration",
+  "jpName": "ウィッチクラフト・コラボレーション"
+ },
  "14470_1": {
   "enName": "Fortune Lady Past",
   "jpName": "フォーチュンレディ・パスティー"
+ },
+ "14486_1": {
+  "enName": "Fortune Lady Every",
+  "jpName": "フォーチュンレディ・エヴァリー"
  },
  "14492_1": {
   "enName": "Shaman of the Tenyi",
@@ -875,9 +1063,17 @@
   "enName": "Apollousa, Bow of the Goddess",
   "jpName": "召命の神弓－アポロウーサ"
  },
+ "14509_1": {
+  "enName": "Fortune Lady Calling",
+  "jpName": "フォーチュンレディ・コーリング"
+ },
  "14512_1": {
   "enName": "Psychic Fervor",
   "jpName": "才呼粉身"
+ },
+ "14515_1": {
+  "enName": "Draw Discharge",
+  "jpName": "ドロー・ディスチャージ"
  },
  "14520_1": {
   "enName": "Fortune Lady Rewind",
@@ -886,6 +1082,14 @@
  "14536_1": {
   "enName": "Valkyrie Funfte",
   "jpName": "ワルキューレ・フュンフト"
+ },
+ "14539_1": {
+  "enName": "Valkyrie's Embrace",
+  "jpName": "ワルキューレの抱擁"
+ },
+ "14585_1": {
+  "enName": "Sentence of Doom",
+  "jpName": "死の宣告"
  },
  "14599_1": {
   "enName": "Perform Puppet",
@@ -898,6 +1102,14 @@
  "14644_1": {
   "enName": "Aromage Laurel",
   "jpName": "アロマージ－ローリエ"
+ },
+ "14645_1": {
+  "enName": "Aromage Marjoram",
+  "jpName": "アロマージ－マジョラム"
+ },
+ "14661_1": {
+  "enName": "Aromaseraphy Sweet Marjoram",
+  "jpName": "アロマセラフィ－スイート・マジョラム"
  },
  "14675_1": {
   "enName": "Gorgon, Empress of the Evil Eyed",
@@ -919,6 +1131,10 @@
   "enName": "Mardel, Generaider Boss of Light",
   "jpName": "光の王 マルデル"
  },
+ "14787_1": {
+  "enName": "Trickstar Festival",
+  "jpName": "トリックスター・フェス"
+ },
  "14795_1": {
   "enName": "Draco Masters of the Tenyi",
   "jpName": "天威の龍拳聖"
@@ -930,6 +1146,14 @@
  "14868_1": {
   "enName": "Condolence Puppet",
   "jpName": "コンドーレンス・パペット"
+ },
+ "14873_1": {
+  "enName": "Dragonmaid Send-Off",
+  "jpName": "ドラゴンメイドのお見送り"
+ },
+ "14909_1": {
+  "enName": "Magicians' Combination",
+  "jpName": "マジシャンズ・コンビネーション"
  },
  "14912_1": {
   "enName": "Generation Next",
@@ -979,9 +1203,17 @@
   "enName": "Cyclamen the Rikka Fairy",
   "jpName": "六花精シクラン"
  },
+ "15122_1": {
+  "enName": "Rikka Sheet",
+  "jpName": "六花の薄氷"
+ },
  "15147_1": {
   "enName": "Traptrix Genlisea",
   "jpName": "リセの蟲惑魔"
+ },
+ "15316_1": {
+  "enName": "Rose Girl",
+  "jpName": "バラガール"
  },
  "15463_1": {
   "enName": "Cyber Slash Harpie Lady",
@@ -1007,6 +1239,14 @@
   "enName": "Evil★Twins Ki-sikil & Lil-la",
   "jpName": "Evil★Twins キスキル・リィラ"
  },
+ "15871_1": {
+  "enName": "Starry Knight Rayel",
+  "jpName": "ホーリーナイツ・レイエル"
+ },
+ "15890_1": {
+  "enName": "Grandpa Demetto",
+  "jpName": "デメット爺さん"
+ },
  "15948_1": {
   "enName": "War Rock Skyler",
   "jpName": "ウォークライ・スキーラ"
@@ -1014,6 +1254,10 @@
  "16085_1": {
   "enName": "ReSolfachord Dreamia",
   "jpName": "レドレミコード・ドリーミア"
+ },
+ "16088_1": {
+  "enName": "SolSolfachord Gracia",
+  "jpName": "ソドレミコード・グレーシア"
  },
  "16090_1": {
   "enName": "TiSolfachord Beautia",
@@ -1034,6 +1278,10 @@
  "16096_1": {
   "enName": "Solfachord Formal",
   "jpName": "ドレミコード・フォーマル"
+ },
+ "16198_1": {
+  "enName": "The Iris Swordsoul",
+  "jpName": "妖眼の相剣師"
  },
  "16214_1": {
   "enName": "Protecting Spirit Loagaeth",
@@ -1066,6 +1314,10 @@
  "16563_1": {
   "enName": "Magikey Locking",
   "jpName": "魔鍵錠－施－"
+ },
+ "16647_1": {
+  "enName": "The Chorus in the Sky",
+  "jpName": "天空の歌声"
  },
  "16654_1": {
   "enName": "Magician's Salvation",
@@ -1135,6 +1387,10 @@
   "enName": "XYZ Combine",
   "jpName": "X・Y・Zコンバイン"
  },
+ "16874_1": {
+  "enName": "Dinomorphia Alert",
+  "jpName": "ダイノルフィア・アラート"
+ },
  "16882_1": {
   "enName": "Monster Rebirth",
   "jpName": "死者所生"
@@ -1150,6 +1406,14 @@
  "17037_1": {
   "enName": "Witchcrafter Vice-Madame",
   "jpName": "ウィッチクラフト・バイスマスター"
+ },
+ "17103_1": {
+  "enName": "Yorishiro of the Aqua",
+  "jpName": "海神の依代"
+ },
+ "17114_1": {
+  "enName": "Performapal Ladyange",
+  "jpName": "EMレディアンジュ"
  },
  "17125_1": {
   "enName": "Mad Mauler",
@@ -1171,9 +1435,21 @@
   "enName": "Tearlaments Merrli",
   "jpName": "ティアラメンツ・メイルゥ"
  },
+ "17415_1": {
+  "enName": "Tearlaments Scheiren",
+  "jpName": "ティアラメンツ・シェイレーン"
+ },
+ "17416_1": {
+  "enName": "Tearlaments Havnis",
+  "jpName": "ティアラメンツ・ハゥフニス"
+ },
  "17473_1": {
   "enName": "Tearlaments Metanoise",
   "jpName": "壱世壊に軋む爪音"
+ },
+ "17474_1": {
+  "enName": "Tearlaments Sulliek",
+  "jpName": "壱世壊に奏でる哀唱"
  },
  "17612_1": {
   "enName": "Amazoness War Chief",
@@ -1182,6 +1458,14 @@
  "17613_1": {
   "enName": "Amazoness Spiritualist",
   "jpName": "アマゾネス霊術師"
+ },
+ "17614_1": {
+  "enName": "Amazoness Augusta",
+  "jpName": "アマゾネス女帝王"
+ },
+ "17616_1": {
+  "enName": "Amazoness Secret Arts",
+  "jpName": "アマゾネスの秘術"
  },
  "17655_1": {
   "enName": "Amazoness Hot Spring",
@@ -1194,6 +1478,14 @@
  "17772_1": {
   "enName": "Mitsu the Insect Ninja",
   "jpName": "蟲の忍者－蜜"
+ },
+ "17804_1": {
+  "enName": "Donner, Dagger Fur Hire",
+  "jpName": "空牙団の懐剣 ドナ"
+ },
+ "17817_1": {
+  "enName": "Ninjitsu Art Tool - Iron Digger",
+  "jpName": "忍法装具 鉄土竜"
  },
  "17984_1": {
   "enName": "Parl, Hermit of Dark World",
@@ -1399,6 +1691,10 @@
   "enName": "Dark Witch",
   "jpName": "ヴァルキリー"
  },
+ "4592_1": {
+  "enName": "Greenkappa",
+  "jpName": "ドッペルゲンガー"
+ },
  "4600_1": {
   "enName": "Rose Spectre of Dunn",
   "jpName": "バラに棲む悪霊"
@@ -1470,6 +1766,10 @@
  "4751_2": {
   "enName": "Panther Warrior",
   "jpName": "漆黒の豹戦士パンサーウォリアー"
+ },
+ "4766_1": {
+  "enName": "Dark Magician Girl",
+  "jpName": "ブラック・マジシャン・ガール"
  },
  "4766_2": {
   "enName": "Dark Magician Girl",
@@ -1575,6 +1875,10 @@
   "enName": "Stim-Pack",
   "jpName": "ドーピング"
  },
+ "4893_1": {
+  "enName": "Gravekeeper's Servant",
+  "jpName": "墓守の使い魔"
+ },
  "4899_1": {
   "enName": "Chorus of Sanctuary",
   "jpName": "聖域の歌声"
@@ -1598,6 +1902,10 @@
  "4953_1": {
   "enName": "Backup Soldier",
   "jpName": "補充要員"
+ },
+ "4965_1": {
+  "enName": "The Shallow Grave",
+  "jpName": "浅すぎた墓穴"
  },
  "4966_1": {
   "enName": "Premature Burial",
@@ -1651,6 +1959,10 @@
   "enName": "Shadow of Eyes",
   "jpName": "誘惑のシャドウ"
  },
+ "5147_1": {
+  "enName": "Wingweaver",
+  "jpName": "翼を織りなす者"
+ },
  "5148_1": {
   "enName": "Science Soldier",
   "jpName": "科学特殊兵"
@@ -1686,6 +1998,10 @@
  "5236_1": {
   "enName": "Foolish Burial",
   "jpName": "おろかな埋葬"
+ },
+ "5239_1": {
+  "enName": "Cyber Harpie Lady",
+  "jpName": "ハーピィ・レディ・SB"
  },
  "5245_1": {
   "enName": "Zombyra the Dark",
@@ -1835,6 +2151,10 @@
   "enName": "Toon Gemini Elf",
   "jpName": "トゥーン・ヂェミナイ・エルフ"
  },
+ "5482_1": {
+  "enName": "Puppet Master",
+  "jpName": "死霊操りしパペットマスター"
+ },
  "5504_1": {
   "enName": "X-Head Cannon",
   "jpName": "X－ヘッド・キャノン"
@@ -1890,6 +2210,10 @@
  "5632_1": {
   "enName": "Fiend's Sanctuary",
   "jpName": "デビルズ・サンクチュアリ"
+ },
+ "5638_1": {
+  "enName": "Dark Spell Regeneration",
+  "jpName": "暗黒の魔再生"
  },
  "5701_1": {
   "enName": "Exodia Necross",
@@ -1963,6 +2287,10 @@
   "enName": "Lady Ninja Yae",
   "jpName": "女忍者ヤエ"
  },
+ "5983_1": {
+  "enName": "Earthquake",
+  "jpName": "アースクエイク"
+ },
  "5993_1": {
   "enName": "Beckoning Light",
   "jpName": "光の召集"
@@ -1994,6 +2322,10 @@
  "6140_1": {
   "enName": "Taunt",
   "jpName": "挑発"
+ },
+ "6141_1": {
+  "enName": "Absolute End",
+  "jpName": "絶体絶命"
  },
  "6144_1": {
   "enName": "Enervating Mist",
@@ -2107,6 +2439,10 @@
   "enName": "Ancient Gear Soldier",
   "jpName": "古代の機械兵士"
  },
+ "6346_1": {
+  "enName": "Gift of the Martyr",
+  "jpName": "受け継がれる力"
+ },
  "6359_1": {
   "enName": "Kozaky's Self-Destruct Button",
   "jpName": "コザッキーの自爆装置"
@@ -2114,6 +2450,10 @@
  "6360_1": {
   "enName": "Mispolymerization",
   "jpName": "融合失敗"
+ },
+ "6361_1": {
+  "enName": "Level Conversion Lab",
+  "jpName": "レベル変換実験室"
  },
  "6409_1": {
   "enName": "Spark Blaster",
@@ -2126,6 +2466,10 @@
  "6420_1": {
   "enName": "Giant Kozaky",
   "jpName": "G・コザッキー"
+ },
+ "6422_1": {
+  "enName": "Protective Soul Ailin",
+  "jpName": "守護霊アイリン"
  },
  "6423_1": {
   "enName": "Doitsu",
@@ -2219,6 +2563,10 @@
   "enName": "Grand Convergence",
   "jpName": "グランドクロス"
  },
+ "6676_1": {
+  "enName": "Elemental Recharge",
+  "jpName": "エレメンタル・チャージ"
+ },
  "6682_1": {
   "enName": "Macro Cosmos",
   "jpName": "マクロコスモス"
@@ -2251,6 +2599,10 @@
   "enName": "Double Evolution Pill",
   "jpName": "究極進化薬"
  },
+ "6842_1": {
+  "enName": "Ancient Gear Tank",
+  "jpName": "古代の機械戦車"
+ },
  "6845_1": {
   "enName": "Cyber Angel Benten",
   "jpName": "サイバー・エンジェル－弁天－"
@@ -2282,6 +2634,10 @@
  "6928_1": {
   "enName": "Cold Enchanter",
   "jpName": "コールド・エンチャンター"
+ },
+ "6967_1": {
+  "enName": "The Six Samurai - Kamon",
+  "jpName": "六武衆－カモン"
  },
  "7015_1": {
   "enName": "Cloak and Dagger",
@@ -2323,6 +2679,10 @@
   "enName": "Aquarian Alessa",
   "jpName": "水面のアレサ"
  },
+ "7257_1": {
+  "enName": "Evil HERO Inferno Wing",
+  "jpName": "E-HERO インフェルノ・ウィング"
+ },
  "7262_1": {
   "enName": "Dark Fusion",
   "jpName": "ダーク・フュージョン"
@@ -2342,6 +2702,10 @@
  "7358_1": {
   "enName": "Shutendoji",
   "jpName": "酒呑童子"
+ },
+ "7412_1": {
+  "enName": "Armored Cybern",
+  "jpName": "アーマード・サイバーン"
  },
  "7424_1": {
   "enName": "Doomsday Horror",
@@ -2363,6 +2727,10 @@
   "enName": "Hate Buster",
   "jpName": "ヘイト・バスター"
  },
+ "7466_1": {
+  "enName": "Chain Material",
+  "jpName": "チェーン・マテリアル"
+ },
  "7498_1": {
   "enName": "Ice Queen",
   "jpName": "氷の女王"
@@ -2370,6 +2738,10 @@
  "7531_1": {
   "enName": "Mist Valley Shaman",
   "jpName": "霞の谷の祈祷師"
+ },
+ "7543_1": {
+  "enName": "Worm Apocalypse",
+  "jpName": "ワーム・アポカリプス"
  },
  "7583_1": {
   "enName": "Arcana Force III - The Empress",
@@ -2423,6 +2795,14 @@
   "enName": "Lightwave Tuning",
   "jpName": "ライトニング・チューン"
  },
+ "7754_1": {
+  "enName": "Graceful Revival",
+  "jpName": "エンジェル・リフト"
+ },
+ "7755_1": {
+  "enName": "Defense Draw",
+  "jpName": "ガード・ブロック"
+ },
  "7756_1": {
   "enName": "Remote Revenge",
   "jpName": "悲劇の引き金"
@@ -2438,6 +2818,10 @@
  "7797_1": {
   "enName": "Ehren, Lightsworn Monk",
   "jpName": "ライトロード・モンク エイリン"
+ },
+ "7803_1": {
+  "enName": "Vanquishing Light",
+  "jpName": "ライト・バニッシュ"
  },
  "7821_1": {
   "enName": "X-Saber Anu Piranha",
@@ -2471,6 +2855,14 @@
   "enName": "Psychic Lifetrancer",
   "jpName": "サイコ・ヘルストランサー"
  },
+ "7901_1": {
+  "enName": "Card Rotator",
+  "jpName": "カード・フリッパー"
+ },
+ "7912_1": {
+  "enName": "Psychokinesis",
+  "jpName": "最古式念導"
+ },
  "7984_1": {
   "enName": "White Night Queen",
   "jpName": "白夜の女王"
@@ -2486,6 +2878,10 @@
  "8000_1": {
   "enName": "Trap Reactor ・Y FI",
   "jpName": "トラップ・リアクター・RR"
+ },
+ "8002_1": {
+  "enName": "Spell Reactor ・RE",
+  "jpName": "マジック・リアクター・AID"
  },
  "8004_1": {
   "enName": "Turret Warrior",
@@ -2523,6 +2919,14 @@
   "enName": "Blackwing Armed Wing",
   "jpName": "BF－アームズ・ウィング"
  },
+ "8197_1": {
+  "enName": "One for One",
+  "jpName": "ワン・フォー・ワン"
+ },
+ "8204_1": {
+  "enName": "Junk Box",
+  "jpName": "ジャンクBOX"
+ },
  "8222_1": {
   "enName": "Fake Feather",
   "jpName": "フェイク・フェザー"
@@ -2534,6 +2938,10 @@
  "8293_1": {
   "enName": "Sunny Pixie",
   "jpName": "サニー・ピクシー"
+ },
+ "8301_1": {
+  "enName": "Fortune Lady Light",
+  "jpName": "フォーチュンレディ・ライティー"
  },
  "8302_1": {
   "enName": "Fortune Lady Fire",
@@ -2555,6 +2963,10 @@
   "enName": "XX-Saber Gottoms",
   "jpName": "XX－セイバー ガトムズ"
  },
+ "8335_1": {
+  "enName": "Release Restraint Wave",
+  "jpName": "拘束解放波"
+ },
  "8340_1": {
   "enName": "Spirit Burner",
   "jpName": "スピリット・バーナー"
@@ -2562,6 +2974,10 @@
  "8356_1": {
   "enName": "Fairy Wind",
   "jpName": "妖精の風"
+ },
+ "8361_1": {
+  "enName": "Damage Translation",
+  "jpName": "ダメージ・トランスレーション"
  },
  "8405_1": {
   "enName": "Spellbreaker of the Ice Barrier",
@@ -2598,6 +3014,14 @@
  "8486_1": {
   "enName": "Fortune's Future",
   "jpName": "フォーチュンフューチャー"
+ },
+ "8487_1": {
+  "enName": "Time Passage",
+  "jpName": "タイムパッセージ"
+ },
+ "8497_1": {
+  "enName": "Faustian Bargain",
+  "jpName": "悪魔への貢物"
  },
  "8502_1": {
   "enName": "Inherited Fortune",
@@ -2655,6 +3079,14 @@
   "enName": "Batteryman Fuel Cell",
   "jpName": "燃料電池メン"
  },
+ "8817_1": {
+  "enName": "Infernity Doom Dragon",
+  "jpName": "インフェルニティ・デス・ドラゴン"
+ },
+ "8823_1": {
+  "enName": "Infernity Launcher",
+  "jpName": "インフェルニティガン"
+ },
  "8824_1": {
   "enName": "Into the Void",
   "jpName": "無の煉獄"
@@ -2686,6 +3118,10 @@
  "8998_1": {
   "enName": "Reanimation Wave",
   "jpName": "波動再生"
+ },
+ "9004_1": {
+  "enName": "Queen's Pawn",
+  "jpName": "女王の選択"
  },
  "9022_1": {
   "enName": "Sergeant Electro",
@@ -2771,9 +3207,17 @@
   "enName": "Junk Berserker",
   "jpName": "ジャンク・バーサーカー"
  },
+ "9509_1": {
+  "enName": "Life Stream Dragon",
+  "jpName": "ライフ・ストリーム・ドラゴン"
+ },
  "9513_1": {
   "enName": "T.G. Blade Blaster",
   "jpName": "TG ブレード・ガンナー"
+ },
+ "9516_1": {
+  "enName": "Scarlet Security",
+  "jpName": "クリムゾン・ヘル・セキュア"
  },
  "9546_1": {
   "enName": "Tyrant's Tantrum",
@@ -2839,6 +3283,10 @@
   "enName": "Photon Lead",
   "jpName": "フォトン・リード"
  },
+ "9774_1": {
+  "enName": "Extra Gate",
+  "jpName": "エクストラゲート"
+ },
  "9791_1": {
   "enName": "Wattcancel",
   "jpName": "エレキャンセル"
@@ -2895,6 +3343,10 @@
   "enName": "Splash Capture",
   "jpName": "スプラッシュ・キャプチャー"
  },
+ "9952_1": {
+  "enName": "The Huge Revolution is Over",
+  "jpName": "大革命返し"
+ },
  "9963_1": {
   "enName": "Superdreadnought Rail Cannon Gustav Max",
   "jpName": "超弩級砲塔列車グスタフ・マックス"
@@ -2906,5 +3358,9 @@
  "9992_1": {
   "enName": "Evilswarm Azzathoth",
   "jpName": "ヴェルズ・アザトホース"
+ },
+ "9998_1": {
+  "enName": "Gishki Psychelone",
+  "jpName": "イビリチュア・プシュケローネ"
  }
 }
