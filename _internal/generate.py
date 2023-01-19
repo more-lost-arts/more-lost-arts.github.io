@@ -26,9 +26,17 @@ newArtworks = set(enArtworks.keys()).difference(known).intersection(set(jpArtwor
 with open('data.json','r',encoding='utf-8') as f:
     dataJson = json.load(f)
 
+pendulumIds = set()
+with requests.get('https://db.ygorganization.com/data/idx/card/pendulum_scale') as resp:
+    for list in resp.json().values():
+        for id in list:
+            pendulumIds.add(str(id))
+
 print('Processing %d new artworks...' % (len(newArtworks),))
 mask = np.zeros((372,256),dtype='uint8')
 cv2.rectangle(mask, pt1=(33,70), pt2=(224,261), color=255, thickness=-1)
+maskp = np.zeros((372,256),dtype='uint8')
+cv2.rectangle(maskp, pt1=(33,70), pt2=(224,229), color=255, thickness=-1)
 n=0
 failed = set()
 for id in newArtworks:
@@ -56,7 +64,7 @@ for id in newArtworks:
         cv2.absdiff(enArtwork, jpArtwork, diff)
         diff = cv2.cvtColor(diff, cv2.COLOR_BGR2GRAY)
         
-        diff = cv2.bitwise_and(diff, diff, mask=mask)
+        diff = cv2.bitwise_and(diff, diff, mask=(maskp if (cardId in pendulumIds) else mask))
         
         (T,diff) = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
         diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_CROSS,(3,3)))
@@ -65,7 +73,7 @@ for id in newArtworks:
         if numLabels <= 1:
             continue
         
-        with requests.get('https://db.ygorganization.com/data/card/'+(id.split('_')[0])) as resp:
+        with requests.get('https://db.ygorganization.com/data/card/'+cardId) as resp:
             cardJson = resp.json()
             dataJson[id] = { 'enName': cardJson['cardData']['en']['name'], 'jpName': cardJson['cardData']['ja']['name'] }
         
