@@ -67,7 +67,7 @@ for id in newArtworks:
         diff = cv2.bitwise_and(diff, diff, mask=(maskp if (cardId in pendulumIds) else mask))
         
         (T,diff) = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
-        diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_CROSS,(3,3)))
+        diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(3,3)))
         
         (numLabels, labels, stats, centroids) = cv2.connectedComponentsWithStats(diff, 8)
         if numLabels <= 1:
