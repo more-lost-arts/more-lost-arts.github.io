@@ -109,13 +109,19 @@ const Load = (async (entryPromise) => {
     permalink.hash = ('#'+entry.id);
     document.getElementById('permalink').href = permalink.href;
     
-    if (document.location.hash !== permalink.hash)
+    if (document.location.hash === permalink.hash)
+    {
+        document.title = (entry.enName+' - Yu-Gi-Oh! Artwork Differences');
+    }
+    else
+    {
+        document.title = ('More Lost Arts: Yu-Gi-Oh! Artwork Differences');
         window.history.replaceState(null, '', '/');
+    }
     
     document.getElementById('twitter-link').href = ('https://twitter.com/intent/tweet?text='+encodeURIComponent('Did you know that '+entry.enName+' has different artwork in Japan? I found out today!')+'&url='+encodeURIComponent(permalink.href)+'&hashtags=yugioh');
     document.getElementById('facebook-link').href = ('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(permalink.href)+'&t='+encodeURIComponent('Did you know that '+entry.enName+' has different artwork in Japan? I found out today! #yugioh'));
     document.getElementById('false-positive').href = ('https://github.com/more-lost-arts/more-lost-arts.github.io/issues/new?title='+encodeURIComponent('False Positive: '+entry.enName)+'&body='+encodeURIComponent('**Permalink:** '+permalink.href+'\n\n<!-- add additional information below this line, if required -->'));
-    document.title = (entry.enName+' - Yu-Gi-Oh! Artwork Differences');
     
     document.body.className = '';
     startAnimationLoop();
