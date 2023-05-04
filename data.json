@@ -1524,8 +1524,16 @@
   "jpName": "蟲惑の誘い"
  },
  "18313_1": {
-   "enName": "Traptrix Pinguicula",
-   "jpName": "シトリスの蟲惑魔"
+  "enName": "Traptrix Pinguicula",
+  "jpName": "シトリスの蟲惑魔"
+ },
+ "18512_1": {
+  "enName": "GranSolfachord Coolia",
+  "jpName": "グランドレミコード・クーリア"
+ },
+ "18525_1": {
+  "enName": "Mikanko Dance - Mayowashidori",
+  "jpName": "御巫舞踊－迷わし鳥"
  },
  "4023_1": {
   "enName": "Right Leg of the Forbidden One",
