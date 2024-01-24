@@ -73,16 +73,9 @@ for id in targetArtworks:
         diff = cv2.cvtColor(diff, cv2.COLOR_BGR2GRAY)
         
         diff = cv2.bitwise_and(diff, diff, mask=(maskp if (cardId in pendulumIds) else mask))
-        cv2.imshow('Test', diff)
         
-        if targetedRun:
-            (T,diff) = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
-            diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(2,2)))
-            #cv2.imshow('Test', diff)
-            cv2.waitKey(0)
-        else:
-            (T,diff) = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
-            diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(3,3)))
+        (T,diff) = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
+        diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(2,2)))
         
         (numLabels, labels, stats, centroids) = cv2.connectedComponentsWithStats(diff, 8)
         if numLabels <= 1:
