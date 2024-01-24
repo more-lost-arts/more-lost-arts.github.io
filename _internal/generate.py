@@ -1,4 +1,4 @@
-import json, os, cv2, numpy as np, requests, traceback
+import json, os, cv2, numpy as np, requests, traceback, sys
 
 known = set()
 known.add(None)
@@ -22,6 +22,14 @@ enArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk
 jpArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk('D:\\yugioh\\ygodb-repos\\artworks-jp-n.ygorganization.com') for f in fn )
 
 newArtworks = set(enArtworks.keys()).difference(known).intersection(set(jpArtworks.keys()))
+targetedRun = (len(sys.argv) > 1)
+if targetedRun:
+    targetArtworks = set(enArtworks.keys()).intersection(set(jpArtworks.keys())).intersection(set(sys.argv[1:]))
+    if not targetArtworks:
+        print(f'None of those artworks ({targetArtworks}) exist.')
+        sys.exit(1)
+else:
+    targetArtworks = newArtworks
 
 with open('data.json','r',encoding='utf-8') as f:
     dataJson = json.load(f)
@@ -32,14 +40,14 @@ with requests.get('https://db.ygorganization.com/data/idx/card/pendulum_scale') 
         for id in list:
             pendulumIds.add(str(id))
 
-print('Processing %d new artworks...' % (len(newArtworks),))
+print('Processing %d%s artworks...' % (len(targetArtworks),targetedRun and '' or ' new'))
 mask = np.zeros((372,256),dtype='uint8')
 cv2.rectangle(mask, pt1=(33,70), pt2=(224,261), color=255, thickness=-1)
 maskp = np.zeros((372,256),dtype='uint8')
 cv2.rectangle(maskp, pt1=(33,70), pt2=(224,229), color=255, thickness=-1)
 n=0
 failed = set()
-for id in newArtworks:
+for id in targetArtworks:
     #if n >= 10: # leash it, for now
     if False: # unleash it
         failed.add(id)
@@ -65,9 +73,16 @@ for id in newArtworks:
         diff = cv2.cvtColor(diff, cv2.COLOR_BGR2GRAY)
         
         diff = cv2.bitwise_and(diff, diff, mask=(maskp if (cardId in pendulumIds) else mask))
+        cv2.imshow('Test', diff)
         
-        (T,diff) = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
-        diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(3,3)))
+        if targetedRun:
+            (T,diff) = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
+            diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(2,2)))
+            #cv2.imshow('Test', diff)
+            cv2.waitKey(0)
+        else:
+            (T,diff) = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
+            diff = cv2.morphologyEx(diff, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(3,3)))
         
         (numLabels, labels, stats, centroids) = cv2.connectedComponentsWithStats(diff, 8)
         if numLabels <= 1:
@@ -100,14 +115,14 @@ for id in newArtworks:
         traceback.print_exc()
         failed.add(id)
 
-newArtworks = newArtworks.difference(failed)
-print('Processed %d artworks, found %d new differences.' % (len(newArtworks), n))
+targetArtworks = targetArtworks.difference(failed)
+print('Processed %d artworks, found %d differences.' % (len(targetArtworks), n))
 
 if n > 0:
     with open('data.json','w',encoding='utf-8') as of:
         json.dump(dataJson, of, sort_keys=True, indent=1, ensure_ascii=False)
 
-if newArtworks:
-    with open('_internal/known','a') as of:
-        of.write(' '.join(newArtworks))
-        of.write('\n')
+    if not targetedRun:
+        with open('_internal/known','a') as of:
+            of.write(' '.join(targetArtworks))
+            of.write('\n')
