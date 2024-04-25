@@ -1603,6 +1603,18 @@
   "enName": "Emblema Oath",
   "jpName": "誓いのエンブレーマ"
  },
+ "19848_1": {
+  "enName": "Ancient Gear Tanker",
+  "jpName": "古代の機械戦車兵"
+ },
+ "19852_1": {
+  "enName": "Snake-Eyes Diabellstar",
+  "jpName": "蛇眼の大炎魔"
+ },
+ "19883_1": {
+  "enName": "Centur-Ion Auxila",
+  "jpName": "騎士皇アークシーラ"
+ },
  "4023_1": {
   "enName": "Right Leg of the Forbidden One",
   "jpName": "封印されし者の右足"
@@ -1890,6 +1902,10 @@
  "4786_1": {
   "enName": "Dunames Dark Witch",
   "jpName": "デュナミス・ヴァルキリア"
+ },
+ "4791_1": {
+  "enName": "Talons of Shurilane",
+  "jpName": "タロンズ・オブ・シュリーレン"
  },
  "4806_1": {
   "enName": "7 Completed",
