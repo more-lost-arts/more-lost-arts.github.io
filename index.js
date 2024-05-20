@@ -23,7 +23,7 @@ const _data = (async () => {
     return data;
 })();
 
-const _artworkManifest = (async () => { return (await (await fetch('https://artworks.ygorganization.com/manifest.json')).json()).cards; })();
+const _artworkManifest = (async () => { return (await (await fetch('https://artworks.ygoresources.com/manifest.json')).json()).cards; })();
 
 let _resolveFully = null;
 
@@ -34,8 +34,8 @@ const __resolveFully = (async (entry) => {
         if (!(artworkData && artworkData.bestTCG && artworkData.bestOCG))
             throw 'artwork not found';
         
-        const tcgArt = new URL(artworkData.bestTCG, 'https://artworks.ygorganization.com/');
-        const ocgArt = new URL(artworkData.bestOCG, 'https://artworks.ygorganization.com/');
+        const tcgArt = new URL(artworkData.bestTCG, 'https://artworks.ygoresources.com/');
+        const ocgArt = new URL(artworkData.bestOCG, 'https://artworks.ygoresources.com/');
         
         entry.tcgArt = new Image();
         entry.tcgArt.src = tcgArt.href;

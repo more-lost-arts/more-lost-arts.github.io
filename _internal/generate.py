@@ -18,8 +18,8 @@ def renormalizeName(name):
     art = int(art)
     return (('%d_%d') % (card,art), name)
 
-enArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk('D:\\yugioh\\ygodb-repos\\artworks-en-n.ygorganization.com') for f in fn )
-jpArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk('D:\\yugioh\\ygodb-repos\\artworks-jp-n.ygorganization.com') for f in fn )
+enArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk('D:\\yugioh\\ygodb-repos\\artworks-en-n') for f in fn )
+jpArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk('D:\\yugioh\\ygodb-repos\\artworks-jp-n') for f in fn )
 
 newArtworks = set(enArtworks.keys()).difference(known).intersection(set(jpArtworks.keys()))
 targetedRun = (len(sys.argv) > 1)
@@ -35,7 +35,7 @@ with open('data.json','r',encoding='utf-8') as f:
     dataJson = json.load(f)
 
 pendulumIds = set()
-with requests.get('https://db.ygorganization.com/data/idx/card/pendulum_scale') as resp:
+with requests.get('https://db.ygoresources.com/data/idx/card/pendulum_scale') as resp:
     for list in resp.json().values():
         for id in list:
             pendulumIds.add(str(id))
@@ -81,7 +81,7 @@ for id in targetArtworks:
         if numLabels <= 1:
             continue
         
-        with requests.get('https://db.ygorganization.com/data/card/'+cardId) as resp:
+        with requests.get('https://db.ygoresources.com/data/card/'+cardId) as resp:
             cardJson = resp.json()
             dataJson[id] = { 'enName': cardJson['cardData']['en']['name'], 'jpName': cardJson['cardData']['ja']['name'] }
         
