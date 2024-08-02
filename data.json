@@ -3199,6 +3199,10 @@
   "enName": "Destruct Potion",
   "jpName": "デストラクト・ポーション"
  },
+ "8730_1": {
+  "enName": "The Fabled Kudabbi",
+  "jpName": "魔轟神獣クダベ"
+ },
  "8789_1": {
   "enName": "Infernity Randomizer",
   "jpName": "インフェルニティ・リローダー"
@@ -3267,6 +3271,10 @@
   "enName": "Magical King Moonstar",
   "jpName": "奇術王 ムーン・スター"
  },
+ "9062_1": {
+  "enName": "Queen Angel of Roses",
+  "jpName": "凛天使クイーン・オブ・ローズ"
+ },
  "9139_1": {
   "enName": "Heat Wave",
   "jpName": "大熱波"
@@ -3310,6 +3318,14 @@
  "9305_1": {
   "enName": "Ljosalf of the Nordic Alfar",
   "jpName": "極星霊リョースアールヴ"
+ },
+ "9306_1": {
+  "enName": "Svartalf of the Nordic Alfar",
+  "jpName": "極星霊デックアールヴ"
+ },
+ "9307_1": {
+  "enName": "Dverg of the Nordic Alfar",
+  "jpName": "極星霊ドヴェルグ"
  },
  "9348_1": {
   "enName": "Token Sundae",
@@ -3411,6 +3427,10 @@
   "enName": "Baby Tiragon",
   "jpName": "ベビー・トラゴン"
  },
+ "9757_1": {
+  "enName": "Number 83: Galaxy Queen",
+  "jpName": "No.83 ギャラクシー・クィーン"
+ },
  "9764_1": {
   "enName": "Ego Boost",
   "jpName": "虚栄巨影"
@@ -3426,6 +3446,10 @@
  "9791_1": {
   "enName": "Wattcancel",
   "jpName": "エレキャンセル"
+ },
+ "9793_1":
+  "enName": "Darklight",
+  "jpName": "闇の閃光"
  },
  "9794_1": {
   "enName": "Tyrant's Throes",
@@ -3462,6 +3486,10 @@
  "9904_1": {
   "enName": "Masked Ninja Ebisu",
   "jpName": "覆面忍者ヱビス"
+ },
+ "9915_1": {
+  "enName": "Blade Armor Ninja",
+  "jpName": "機甲忍者ブレード・ハート"
  },
  "9933_1": {
   "enName": "Creeping Darkness",
