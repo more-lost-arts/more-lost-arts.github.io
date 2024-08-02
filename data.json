@@ -1,7 +1,15 @@
 {
+ "10011_1": {
+  "enName": "Constellar Meteor",
+  "jpName": "セイクリッドの流星"
+ },
  "10059_1": {
   "enName": "Lady of D.",
   "jpName": "ドラゴン・ウィッチ－ドラゴンの守護者－"
+ },
+ "10063_1": {
+  "enName": "Nomadic Force",
+  "jpName": "ながれ者傭兵部隊"
  },
  "10072_1": {
   "enName": "Queen Dragun Djinn",
@@ -231,6 +239,10 @@
   "enName": "Crimson Knight Vampire Bram",
   "jpName": "紅貴士－ヴァンパイア・ブラム"
  },
+ "10786_1": {
+  "enName": "Meliae of the Trees",
+  "jpName": "メリアスの木霊"
+ },
  "10790_1": {
   "enName": "Gagagatag",
   "jpName": "ガガガタッグ"
@@ -295,6 +307,10 @@
   "enName": "Ghost of a Grudge",
   "jpName": "墓地墓地の恨み"
  },
+ "11046_1": {
+  "enName": "Artifact Caduceus",
+  "jpName": "アーティファクト－カドケウス"
+ },
  "11054_1": {
   "enName": "Traptrix Dionaea",
   "jpName": "ティオの蟲惑魔"
@@ -302,6 +318,10 @@
  "11080_1": {
   "enName": "Ghostrick Socuteboss",
   "jpName": "ゴーストリック・サキュバス"
+ },
+ "11085_1": {
+  "enName": "Reverse Breaker",
+  "jpName": "リバース・ブレイカー"
  },
  "11100_1": {
   "enName": "Last Counter",
@@ -327,6 +347,10 @@
   "enName": "Vampire Vamp",
   "jpName": "ヴァンプ・オブ・ヴァンパイア"
  },
+ "11243_1": {
+  "enName": "Artifact Lancea",
+  "jpName": "アーティファクト－ロンギヌス"
+ },
  "11244_1": {
   "enName": "Nefarious Archfiend Eater of Nefariousness",
   "jpName": "デーモン・イーター"
@@ -342,6 +366,10 @@
  "11264_1": {
   "enName": "Hippo Carnival",
   "jpName": "カバーカーニバル"
+ },
+ "11302_1": {
+  "enName": "Lightsworn Sanctuary",
+  "jpName": "ライトロードの神域"
  },
  "11311_1": {
   "enName": "Masked HERO Koga",
@@ -411,6 +439,10 @@
   "enName": "Frightfur Tiger",
   "jpName": "デストーイ・シザー・タイガー"
  },
+ "11630_1": {
+  "enName": "Dragoons of Draconia",
+  "jpName": "ドラコニアの獣竜騎兵"
+ },
  "11643_1": {
   "enName": "Rose Paladin",
   "jpName": "薔薇の聖騎士"
@@ -451,6 +483,14 @@
   "enName": "Frightfur Leo",
   "jpName": "デストーイ・ホイールソウ・ライオ"
  },
+ "11720_1": {
+  "enName": "Ritual Beast Ulti-Gaiapelio",
+  "jpName": "聖霊獣騎 ガイアペライオ"
+ },
+ "11727_1": {
+  "enName": "Performapal Recasting",
+  "jpName": "EMキャスト・チェンジ"
+ },
  "11729_1": {
   "enName": "Frightfur Factory",
   "jpName": "デストーイ・ファクトリー"
@@ -466,6 +506,10 @@
  "11756_1": {
   "enName": "Mithra the Thunder Vassal",
   "jpName": "雷帝家臣ミスラ"
+ },
+ "11770_1": {
+  "enName": "Sea Dragoons of Draconia",
+  "jpName": "ドラコニアの海竜騎兵"
  },
  "11810_1": {
   "enName": "Igknight Squire",
@@ -499,6 +543,10 @@
   "enName": "Mistaken Arrest",
   "jpName": "捕違い"
  },
+ "11851_1": {
+  "enName": "Chicken Game",
+  "jpName": "チキンレース"
+ },
  "11858_1": {
   "enName": "Humid Winds",
   "jpName": "潤いの風"
@@ -527,6 +575,10 @@
   "enName": "Aquaactress Arowana",
   "jpName": "アクアアクトレス・アロワナ"
  },
+ "11961_1": {
+  "enName": "The Legendary Fisherman III",
+  "jpName": "伝説のフィッシャーマン三世"
+ },
  "11982_1": {
   "enName": "Toon Barrel Dragon",
   "jpName": "トゥーン・リボルバー・ドラゴン"
@@ -546,6 +598,10 @@
  "12013_1": {
   "enName": "Dark Contract with Errors",
   "jpName": "誤封の契約書"
+ },
+ "12020_1": {
+  "enName": "Pendulum Area",
+  "jpName": "ペンデュラム・エリア"
  },
  "12026_1": {
   "enName": "Traptrix Rafflesia",
@@ -567,6 +623,14 @@
   "enName": "Kozmo Lightsword",
   "jpName": "Kozmo－レイブレード"
  },
+ "12108_1": {
+  "enName": "Beatrice, Lady of the Eternal",
+  "jpName": "永遠の淑女 ベアトリーチェ"
+ },
+ "12164_1": {
+  "enName": "Performance Hurricane",
+  "jpName": "エンタメ・バンド・ハリケーン"
+ },
  "12179_1": {
   "enName": "Reject Reborn",
   "jpName": "リジェクト・リボーン"
@@ -574,6 +638,10 @@
  "12284_1": {
   "enName": "Lunalight Wolf",
   "jpName": "月光狼"
+ },
+ "12329_1": {
+  "enName": "Fortissimo",
+  "jpName": "フォルテッシモ"
  },
  "12338_1": {
   "enName": "Fusion Tag",
@@ -586,6 +654,10 @@
  "12352_1": {
   "enName": "Graceful Tear",
   "jpName": "天使の涙"
+ },
+ "12356_1": {
+  "enName": "Lemon Magician Girl",
+  "jpName": "レモン・マジシャン・ガール"
  },
  "12358_1": {
   "enName": "Chocolate Magician Girl",
@@ -623,6 +695,10 @@
   "enName": "Frightfur Sanctuary",
   "jpName": "デストーイ・サンクチュアリ"
  },
+ "12458_1": {
+  "enName": "Dark Magic Expanded",
+  "jpName": "黒魔導強化"
+ },
  "12470_1": {
   "enName": "Magician Navigation",
   "jpName": "マジシャンズ・ナビゲート"
@@ -651,6 +727,10 @@
   "enName": "Magnet Reverse",
   "jpName": "マグネット・リバース"
  },
+ "12588_1": {
+  "enName": "Union Scramble",
+  "jpName": "スクランブル・ユニオン"
+ },
  "12571_1": {
   "enName": "Tribute Burial",
   "jpName": "埋葬されし生け贄"
@@ -667,6 +747,10 @@
   "enName": "Igknights Unite",
   "jpName": "イグナイト・ユナイト"
  },
+ "12654_1": {
+  "enName": "Sprite's Blessing",
+  "jpName": "精霊の祝福"
+ },
  "12672_1": {
   "enName": "Silent Paladin",
   "jpName": "沈黙の魔導剣士－サイレント・パラディン"
@@ -682,6 +766,14 @@
  "12767_1": {
   "enName": "Eater of Millions",
   "jpName": "百万喰らいのグラットン"
+ },
+ "12790_1": {
+  "enName": "Machine Angel Absolute Ritual",
+  "jpName": "機械天使の絶対儀式"
+ },
+ "12794_1": {
+  "enName": "Zoodiac Barrage",
+  "jpName": "十二獣の会局"
  },
  "12801_1": {
   "enName": "That Grass Looks Greener",
@@ -2663,6 +2755,10 @@
   "enName": "Memory Crusher",
   "jpName": "記憶破壊者"
  },
+ "6614_1": {
+   "enName": "D.3.S. Frog",
+   "jpName": "ガエル・サンデス"
+ },
  "6620_1": {
   "enName": "Next to be Lost",
   "jpName": "ロスト・ネクスト"
@@ -2670,6 +2766,10 @@
  "6622_1": {
   "enName": "Full Salvo",
   "jpName": "全弾発射"
+ },
+ "6623_1": {
+   "enName": "Success Probability 0%",
+   "jpName": "成功確率０％"
  },
  "6643_1": {
   "enName": "Elemental HERO Wild Wingman",
@@ -2730,6 +2830,10 @@
  "6779_1": {
   "enName": "Fake Hero",
   "jpName": "フェイク・ヒーロー"
+ },
+ "6811_1": {
+  "enName": "Fossil Excavation",
+  "jpName": "化石発掘"
  },
  "6839_1": {
   "enName": "Double Evolution Pill",
@@ -2890,6 +2994,10 @@
  "7597_1": {
   "enName": "Celestia, Lightsworn Angel",
   "jpName": "ライトロード・エンジェル ケルビム"
+ },
+ "7636_1": {
+  "enName": "Limit Reverse",
+  "jpName": "リミット・リバース"
  },
  "7644_1": {
   "enName": "Glorious Illusion",
@@ -3059,6 +3167,10 @@
   "enName": "One for One",
   "jpName": "ワン・フォー・ワン"
  },
+ "8200_1": {
+  "enName": "Magic Planter",
+  "jpName": "マジック・プランター"
+ },
  "8204_1": {
   "enName": "Junk Box",
   "jpName": "ジャンクBOX"
@@ -3194,6 +3306,10 @@
  "8656_1": {
   "enName": "Cards of Consonance",
   "jpName": "調和の宝札"
+ },
+ "8666_1": {
+  "enName": "Iron Core Specimen Lab",
+  "jpName": "鋼核合成獣研究所"
  },
  "8680_1": {
   "enName": "Destruct Potion",
