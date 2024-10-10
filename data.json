@@ -727,13 +727,13 @@
   "enName": "Magnet Reverse",
   "jpName": "マグネット・リバース"
  },
- "12588_1": {
-  "enName": "Union Scramble",
-  "jpName": "スクランブル・ユニオン"
- },
  "12571_1": {
   "enName": "Tribute Burial",
   "jpName": "埋葬されし生け贄"
+ },
+ "12588_1": {
+  "enName": "Union Scramble",
+  "jpName": "スクランブル・ユニオン"
  },
  "12589_1": {
   "enName": "A-to-Z-Dragon Buster Cannon",
@@ -1719,6 +1719,10 @@
   "enName": "Spell Card \"Monster Reborn\"",
   "jpName": "マジックカード「死者蘇生」"
  },
+ "20060_1": {
+  "enName": "Krishnerd Witch",
+  "jpName": "クリシュナード・ウィッチ"
+ },
  "20186_1": {
   "enName": "Gimmick Puppet Little Soldiers",
   "jpName": "ギミック・パペット－リトル・ソルジャーズ"
@@ -1726,6 +1730,26 @@
  "20257_1": {
   "enName": "Dominus Purge",
   "jpName": "聖王の粉砕"
+ },
+ "20488_1": {
+  "enName": "Goblin Bikers Gone Wild",
+  "jpName": "天上天下百鬼羅刹"
+ },
+ "20490_1": {
+  "enName": "Lacrima the Crimson Tears",
+  "jpName": "紅涙の魔ラクリモーサ"
+ },
+ "20507_1": {
+  "enName": "Azamina Mu Rcielago",
+  "jpName": "告死聖徒ルシエラーゴ"
+ },
+ "20532_1": {
+  "enName": "Scourge of the White Forest",
+  "jpName": "白き森のあくま"
+ },
+ "20555_1": {
+  "enName": "Dominus Impulse",
+  "jpName": "霊王の波動"
  },
  "4023_1": {
   "enName": "Right Leg of the Forbidden One",
@@ -1951,6 +1975,10 @@
   "enName": "Eradicating Aerosol",
   "jpName": "トゲトゲ神の殺虫剤"
  },
+ "4678_3": {
+  "enName": "Harpie's Feather Duster",
+  "jpName": "ハーピィの羽根帚"
+ },
  "4680_1": {
   "enName": "Beastly Mirror Ritual",
   "jpName": "悪魔鏡の儀式"
@@ -2004,6 +2032,10 @@
   "jpName": "ブラック・マジシャン・ガール"
  },
  "4766_6": {
+  "enName": "Dark Magician Girl",
+  "jpName": "ブラック・マジシャン・ガール"
+ },
+ "4766_8": {
   "enName": "Dark Magician Girl",
   "jpName": "ブラック・マジシャン・ガール"
  },
@@ -2756,8 +2788,8 @@
   "jpName": "記憶破壊者"
  },
  "6614_1": {
-   "enName": "D.3.S. Frog",
-   "jpName": "ガエル・サンデス"
+  "enName": "D.3.S. Frog",
+  "jpName": "ガエル・サンデス"
  },
  "6620_1": {
   "enName": "Next to be Lost",
@@ -2768,8 +2800,8 @@
   "jpName": "全弾発射"
  },
  "6623_1": {
-   "enName": "Success Probability 0%",
-   "jpName": "成功確率０％"
+  "enName": "Success Probability 0%",
+  "jpName": "成功確率０％"
  },
  "6643_1": {
   "enName": "Elemental HERO Wild Wingman",
