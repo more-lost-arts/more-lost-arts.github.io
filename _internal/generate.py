@@ -18,8 +18,8 @@ def renormalizeName(name):
     art = int(art)
     return (('%d_%d') % (card,art), name)
 
-enArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk('D:\\yugioh\\ygodb-repos\\artworks-en-n') for f in fn )
-jpArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk('D:\\yugioh\\ygodb-repos\\artworks-jp-n') for f in fn )
+enArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk('C:\\temp\\artworks-en-n') for f in fn )
+jpArtworks = dict( renormalizeName(os.path.join(dp,f)) for (dp,dn,fn) in os.walk('C:\\temp\\artworks-jp-n') for f in fn )
 
 newArtworks = set(enArtworks.keys()).difference(known).intersection(set(jpArtworks.keys()))
 targetedRun = (len(sys.argv) > 1)

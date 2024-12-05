@@ -1751,6 +1751,18 @@
   "enName": "Dominus Impulse",
   "jpName": "霊王の波動"
  },
+ "20582_1": {
+  "enName": "Maliss <P> White Rabbit",
+  "jpName": "M∀LICE＜P＞White Rabbit"
+ },
+ "20588_1": {
+  "enName": "Maliss in Underground",
+  "jpName": "M∀LICE IN UNDERGROUND"
+ },
+ "20589_1": {
+  "enName": "Maliss <C> MTP-07",
+  "jpName": "M∀LICE＜C＞MTP－０７"
+ },
  "4023_1": {
   "enName": "Right Leg of the Forbidden One",
   "jpName": "封印されし者の右足"
@@ -2080,6 +2092,10 @@
   "jpName": "黒魔術のカーテン"
  },
  "4837_2": {
+  "enName": "Polymerization",
+  "jpName": "融合"
+ },
+ "4837_3": {
   "enName": "Polymerization",
   "jpName": "融合"
  },
