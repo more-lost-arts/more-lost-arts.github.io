@@ -100,7 +100,20 @@ const Load = (async (entryPromise) => {
     removeAllChildren(document.getElementById('tcg'));
     removeAllChildren(document.getElementById('ocg'));
     removeAllChildren(document.getElementById('diff'));
-    document.getElementById('card-name').innerText = entry.enName;
+    const [cardId] = entry.id.split('_'); // Extract card number
+    const cardLink = `https://db.ygoresources.com/card#${cardId}`;
+    const cardNameElement = document.getElementById('card-name');
+
+    // Create a hyperlink
+    const cardLinkElement = document.createElement('a');
+    cardLinkElement.href = cardLink;
+    cardLinkElement.textContent = entry.enName;
+    cardLinkElement.target = '_blank'; // Open in new tab
+
+    // Clear and append the new link
+    removeAllChildren(cardNameElement);
+    cardNameElement.appendChild(cardLinkElement);
+
     document.getElementById('tcg').appendChild(entry.tcgArt);
     document.getElementById('ocg').appendChild(entry.ocgArt);
     document.getElementById('diff').appendChild(entry.diffArt);
