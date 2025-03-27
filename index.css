@@ -22,7 +22,7 @@ body { background: #ccc; font-family: Verdana, Geneva, sans-serif; }
 #main-row .container img { height: 100%; width: 100%; object-fit: contain; border-radius: 1vmin; }
 #overlay { background: rgba(255,255,255,0.95); padding: 1vh 1vw; text-align: center; font-size: max(2.93vmin,2vh); }
 #overlay-main { font-variant: small-caps; }
-#overlay-main #card-name { display: inline-block; font-size: 130%; padding: 0 .1em; background: rgba(0,0,0,0.2); border-radius: .15em; border: 2px solid rgba(0,0,0,0.5); }
+#overlay-main #card-name { display: inline-block; font-size: 130%; padding: 0 .1em; background: rgba(0,0,0,0.2); border-radius: .15em; border: 2px solid rgba(0,0,0,0.5); text-decoration: none; color: inherit; }
 @media (orientation: portrait) { #overlay-main #card-name { display: block; } }
 #overlay-share { margin-top: .45em; font-size: 65%; font-family: Monospace; }
 #another { background: rgba(255,255,255,.9); transition: background .2s; border: 2px solid #999; cursor: pointer; align-self: center; margin: 2vh 2vw; font-size: max(2.93vmin,2vh); font-weight: bold; border-radius: .7vh; padding: .3vh .3vw; }

@@ -101,6 +101,7 @@ const Load = (async (entryPromise) => {
     removeAllChildren(document.getElementById('ocg'));
     removeAllChildren(document.getElementById('diff'));
     document.getElementById('card-name').innerText = entry.enName;
+    document.getElementById('card-name').href = `https://db.ygoresources.com/card#${entry.id.split('_')[0]}`;
     document.getElementById('tcg').appendChild(entry.tcgArt);
     document.getElementById('ocg').appendChild(entry.ocgArt);
     document.getElementById('diff').appendChild(entry.diffArt);
