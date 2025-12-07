@@ -1795,6 +1795,94 @@
   "enName": "Fiendsmith Kyrie",
   "jpName": "刻まれし魔の憐歌"
  },
+ "20936_1": {
+  "enName": "Emilia, Dance Priestess of the Nekroz",
+  "jpName": "影霊衣の舞巫女 エミリア"
+ },
+ "20945_1": {
+  "enName": "Noh-P.U.N.K. Rising Scale",
+  "jpName": "No－P.U.N.K.ライジング・スケール"
+ },
+ "21139_1": {
+  "enName": "Backup @Ignister",
+  "jpName": "バックアップ＠イグニスター"
+ },
+ "21141_1": {
+  "enName": "Dark Magician Girl the Magician's Apprentice",
+  "jpName": "魔術師の弟子－ブラック・マジシャン・ガール"
+ },
+ "21149_1": {
+  "enName": "Diabellze the White Witch",
+  "jpName": "白魔女ディアベルゼ"
+ },
+ "21160_1": {
+  "enName": "Maliss <P> March Hare",
+  "jpName": "M∀LICE＜P＞March Hare"
+ },
+ "21174_1": {
+  "enName": "Filia Regis",
+  "jpName": "妖竜の禁姫"
+ },
+ "21192_1": {
+  "enName": "World of Spirits",
+  "jpName": "精霊の世界"
+ },
+ "21355_1": {
+  "enName": "Dracotail Faimena",
+  "jpName": "星辰砲手ファイメナ"
+ },
+ "21362_1": {
+  "enName": "Rahu Dracotail",
+  "jpName": "羅睺星辰"
+ },
+ "21365_1": {
+  "enName": "Cupsy☆Yummy",
+  "jpName": "カプシー☆ヤミー"
+ },
+ "21366_1": {
+  "enName": "Cooky☆Yummy",
+  "jpName": "クッキィ☆ヤミー"
+ },
+ "21367_1": {
+  "enName": "Lollipo☆Yummy",
+  "jpName": "ロリポー☆ヤミー"
+ },
+ "21371_1": {
+  "enName": "Yummy★Snatchy",
+  "jpName": "ヤミー★スナッチー"
+ },
+ "21380_1": {
+  "enName": "K9-17 \"Ripper\"",
+  "jpName": "K９－１７号 “Ripper”"
+ },
+ "21424_1": {
+  "enName": "Serene Psychic Girl",
+  "jpName": "静寂のサイコガール"
+ },
+ "21432_1": {
+  "enName": "Kaibaman the Legend",
+  "jpName": "正義の伝説 カイバーマン"
+ },
+ "21442_1": {
+  "enName": "Lunalight Perfume Dancer",
+  "jpName": "月光舞香姫"
+ },
+ "21464_1": {
+  "enName": "Lunalight Masquerade",
+  "jpName": "月光舞踏会"
+ },
+ "21770_1": {
+  "enName": "Vengeful Witch",
+  "jpName": "バイオレンス・ウィッチ"
+ },
+ "21905_1": {
+  "enName": "Synchro Fellowship",
+  "jpName": "シンクロ・フェローズ"
+ },
+ "21955_1": {
+  "enName": "Kewl Tune Reco",
+  "jpName": "キラーチューン・レコ"
+ },
  "4023_1": {
   "enName": "Right Leg of the Forbidden One",
   "jpName": "封印されし者の右足"
@@ -1832,6 +1920,14 @@
   "jpName": "封印されしエクゾディア"
  },
  "4027_2": {
+  "enName": "Exodia the Forbidden One",
+  "jpName": "封印されしエクゾディア"
+ },
+ "4027_3": {
+  "enName": "Exodia the Forbidden One",
+  "jpName": "封印されしエクゾディア"
+ },
+ "4027_4": {
   "enName": "Exodia the Forbidden One",
   "jpName": "封印されしエクゾディア"
  },
@@ -3676,6 +3772,10 @@
   "jpName": "Dボーイズ"
  },
  "9877_1": {
+  "enName": "Gagaga Girl",
+  "jpName": "ガガガガール"
+ },
+ "9877_2": {
   "enName": "Gagaga Girl",
   "jpName": "ガガガガール"
  },
