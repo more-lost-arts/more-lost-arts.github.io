@@ -1775,6 +1775,10 @@
   "enName": "Maliss <P> White Rabbit",
   "jpName": "M∀LICE＜P＞White Rabbit"
  },
+ "20582_2": {
+  "enName": "Maliss <P> White Rabbit",
+  "jpName": "M∀LICE＜P＞White Rabbit"
+ },
  "20588_1": {
   "enName": "Maliss in Underground",
   "jpName": "M∀LICE IN UNDERGROUND"
@@ -1882,6 +1886,38 @@
  "21955_1": {
   "enName": "Kewl Tune Reco",
   "jpName": "キラーチューン・レコ"
+ },
+ "22116_1": {
+  "enName": "Elfnote Lucina",
+  "jpName": "耀聖の花詩ルキナ"
+ },
+ "22122_1": {
+  "enName": "Highness Archfiend",
+  "jpName": "ハイネス・デーモン"
+ },
+ "22147_1": {
+  "enName": "Exosister Karmael",
+  "jpName": "エクソシスター・カルマエル"
+ },
+ "22166_1": {
+  "enName": "Darklord Dance",
+  "jpName": "佚楽の堕天使"
+ },
+ "22168_1": {
+  "enName": "Exosister Betrayal",
+  "jpName": "エクソシスター・バト・マーテル"
+ },
+ "22173_1": {
+  "enName": "Elfnotes: Rhapsodia of Madness",
+  "jpName": "エルフェンノーツ～狂奏のラプソディア～"
+ },
+ "22191_1": {
+  "enName": "X-Saber Pellina",
+  "jpName": "X－セイバー ペリナ"
+ },
+ "22355_1": {
+  "enName": "Charmers of the Grand Circle",
+  "jpName": "大輪の霊使い"
  },
  "4023_1": {
   "enName": "Right Leg of the Forbidden One",
@@ -2843,6 +2879,10 @@
   "enName": "Ancient Gear Soldier",
   "jpName": "古代の機械兵士"
  },
+ "6337_3": {
+  "enName": "Hiita the Fire Charmer",
+  "jpName": "火霊使いヒータ"
+ },
  "6346_1": {
   "enName": "Gift of the Martyr",
   "jpName": "受け継がれる力"
@@ -3516,6 +3556,10 @@
   "jpName": "インフェルニティ・デス・ドラゴン"
  },
  "8823_1": {
+  "enName": "Infernity Launcher",
+  "jpName": "インフェルニティガン"
+ },
+ "8823_2": {
   "enName": "Infernity Launcher",
   "jpName": "インフェルニティガン"
  },
